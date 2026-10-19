@@ -12,12 +12,7 @@ This is **not client code**. It contains synthetic demos that exercise patterns 
 
 - [42-second sandbox screencast (synthetic data)](assets/NeuroCore_Sandbox_LiveProof_20261019.mp4) — demonstrates lead routing, duplicate suppression and human-review gating. Recorded 2026-10-19 from an isolated localhost test; **not a live client integration**.
 
-- Landing page: https://contributed-dinner-transaction-cement.trycloudflare.com/
-- Interactive demos: https://contributed-dinner-transaction-cement.trycloudflare.com/proof
-- Health: https://contributed-dinner-transaction-cement.trycloudflare.com/api/health
-- Evidence counters: https://contributed-dinner-transaction-cement.trycloudflare.com/api/demo/evidence
-
-The live URL is a temporary Cloudflare tunnel, so the repository remains the durable reference.
+The previous ephemeral Cloudflare preview URL has expired (DNS unavailable when checked 2026-10-19). Use the recording above for a quick walkthrough or run the open-source demos locally using the steps below. **There is currently no public live server or customer deployment.**
 
 ## Run locally
 
