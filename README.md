@@ -10,6 +10,8 @@ This is **not client code**. It contains synthetic demos that exercise patterns 
 
 ## Live proof
 
+- [42-second sandbox screencast (synthetic data)](assets/NeuroCore_Sandbox_LiveProof_20261019.mp4) — demonstrates lead routing, duplicate suppression and human-review gating. Recorded 2026-10-19 from an isolated localhost test; **not a live client integration**.
+
 - Landing page: https://contributed-dinner-transaction-cement.trycloudflare.com/
 - Interactive demos: https://contributed-dinner-transaction-cement.trycloudflare.com/proof
 - Health: https://contributed-dinner-transaction-cement.trycloudflare.com/api/health
