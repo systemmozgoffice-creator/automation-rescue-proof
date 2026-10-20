@@ -32,9 +32,18 @@ Every output sets **publish_allowed=false** and **external_calls=0**.
 
 **Evidence:** The five decision cases and additional safety checks passed on
 Node.js v22 using the exact n8n Code node JavaScript in an isolated test.
-The ZIP passes archive-integrity verification. A real end-to-end run inside
-n8n has **not** yet been performed; the template is not marketed as
-production-certified.
+The ZIP passes archive-integrity verification.
+
+**Additional real n8n run (2026-10-20):** the exact offline workflow was
+imported into a disposable n8n Docker instance, with outbound networking
+disabled, no customer data and no exposed service ports. The CLI reported
+`Successfully imported 1 workflow`, `status: success`,
+`finished: true` and completion of the `Client safety gate` Code node.
+All five case identifiers and their decisions were visible in the execution
+trace. Strict independent machine comparison of all output fields against
+the expected JSON has **not** been completed. There was no real third-party
+API integration, live consent/PII verification or customer publication.
+This template is not marketed as production-certified.
 
 ## Intended user
 
