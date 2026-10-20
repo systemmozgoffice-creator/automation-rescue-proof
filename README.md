@@ -8,6 +8,12 @@ This is **not client code**. It contains synthetic demos that exercise patterns 
 2. **Idempotency / duplicate protection** — the same event ID is processed once and subsequent replays are ignored.
 3. **Human approval gate** — only high-confidence, low-risk actions auto-execute; uncertain/risky cases require human review.
 
+## Independent digital product (preview)
+
+- [Safe Intake Gate — n8n Starter Kit v1](products/safe-intake-gate.md): a
+  synthetic review-only workflow and reproducible test harness, planned digital
+  download. **Waitlist only; no active checkout or payments yet.**
+
 ## Live proof
 
 - [42-second sandbox screencast (synthetic data)](assets/NeuroCore_Sandbox_LiveProof_20261019.mp4) — demonstrates lead routing, duplicate suppression and human-review gating. Recorded 2026-10-19 from an isolated localhost test; **not a live client integration**.
