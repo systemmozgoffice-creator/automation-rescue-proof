@@ -8,6 +8,9 @@ This is **not client code**. It contains synthetic demos that exercise patterns 
 2. **Idempotency / duplicate protection** — the same event ID is processed once and subsequent replays are ignored.
 3. **Human approval gate** — only high-confidence, low-risk actions auto-execute; uncertain/risky cases require human review.
 
+**Product preview website:** https://systemmozgoffice-creator.github.io/automation-rescue-proof/
+**Status:** waitlist only; checkout and payments are not enabled.
+
 ## Independent digital product (preview)
 
 - [Safe Intake Gate — n8n Starter Kit v1](products/safe-intake-gate.md): a
